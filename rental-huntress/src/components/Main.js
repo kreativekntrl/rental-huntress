@@ -41,7 +41,7 @@ const Main = () => {
     </div>
 </div>
 </div>
-<a href="#" className="btn btn-primary">View More</a>
+<a href="#" className="btn btn-primary" style={{marginTop: "20px", padding: "10px"}}>View More</a>
 <hr style={{marginLeft: "25px", marginRight: "25px"}}/>
 </div>
     );
