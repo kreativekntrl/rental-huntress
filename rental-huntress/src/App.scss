@@ -1,5 +1,8 @@
-HTML SCSSResult Skip Results Iframe
-EDIT ON
+:root {
+  --dark-font: #4c4c4c;
+  --light-font: white;
+  --btn: #fc3468;
+}
 * {
   box-sizing: border-box;
 }
@@ -8,7 +11,6 @@ body {
   margin: 0;
 
   font: 500 100% system-ui, sans-serif;
-  text-transform: uppercase;
 }
 .page-wrap {
   height: 100vh;
@@ -18,7 +20,7 @@ body {
   grid-template-rows: min-content min-content 1fr min-content;
 
   > * {
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
   }
 
@@ -29,30 +31,28 @@ body {
     }
   }
 }
-
+//HEADER
 .page-header {
   grid-column: 1 / -1;
-  background: #ffcdd2;
+  color: var(--dark-font)
 }
-
+//SIDEBAR
 .page-sidebar {
   grid-column: 1 / -1;
   background: #e1bee7;
 }
+//NAV
 .page-nav {
   grid-column: 1 / -1;
   background: #bbdefb;
 }
+//MAIN
 .page-main {
   grid-column: 1 / -1;
   background: #dcedc8;
 }
+//FOOTER
 .page-footer {
   grid-column: 1 / -1;
   background: #ffecb3;
-}
-
-details p {
-  text-transform: none;
-  text-align: left;
 }
