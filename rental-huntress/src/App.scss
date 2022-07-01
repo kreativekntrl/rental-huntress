@@ -79,12 +79,19 @@ body {
 .page-main {
   grid-column: 1 / -1;
 }
-.card-grou{ 
+h2 {
+  color: var(--dark-font);
+}
+.card-group { 
   margin: auto;
 }
 .card {
   margin: 10px;
-  box-shadow: 1px 1px 4px #ededed;
+  box-shadow: 2px 2px 8px #e0e0e0;
+  transition: all .2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05)
 }
 .btn {
   background-color: var(--btn);

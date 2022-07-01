@@ -43,6 +43,13 @@ const Main = () => {
 </div>
 <a href="#" className="btn btn-primary" style={{marginTop: "20px", padding: "10px"}}>View More</a>
 <hr style={{marginLeft: "25px", marginRight: "25px"}}/>
+<section>
+    <h2>Rated Best Site for Renters</h2>
+    <p>We list thousands of rentals a day, get stated on hunting down the one for you</p>
+    <div>
+        
+    </div>
+</section>
 </div>
     );
 }
