@@ -1,6 +1,6 @@
 :root {
   --dark-font: #4c4c4c;
-  --light-font: white;
+  --light-font: #FFFFFF;
   --btn: #fc3468;
 }
 * {
@@ -44,7 +44,22 @@ body {
 //NAV
 .page-nav {
   grid-column: 1 / -1;
-  background-color: purple;
+  padding: 57px;
+  background-image: url('./images/navImg.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: var(--light-font);
+}
+.page-nav h1 {
+  font-family: 'CostarBrownBold',sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 10px #000000;
+}
+.page-nav p{
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #000000;
 }
 .nav-container {
   text-align: center;
@@ -56,7 +71,8 @@ body {
   float: right;
   background-color: var(--btn);
   color: var(--light-font);
-  border: 1px solid darkmagenta;
+  font-weight: bolder;
+  border: none;
   width: 4.75rem;
 }
 //MAIN

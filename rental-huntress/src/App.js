@@ -12,8 +12,7 @@ function App() {
     <Header />
   </header>
   <nav className="page-nav">
-    <article></article>
-    <Nav />
+    <Nav className="page-nav"/>
   </nav>
   <main className="page-main">
     <Main />
