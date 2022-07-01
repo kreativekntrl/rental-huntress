@@ -2,6 +2,7 @@
   --dark-font: #4c4c4c;
   --light-font: #FFFFFF;
   --btn: #fc3468;
+  --footer-gray: #f9f9f9;
 }
 * {
   box-sizing: border-box;
@@ -100,5 +101,8 @@ h2 {
 //FOOTER
 .page-footer {
   grid-column: 1 / -1;
-  background: #ffecb3;
+  background: var(--footer-gray);
+}
+svg {
+  margin: 1px;
 }
