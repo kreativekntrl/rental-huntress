@@ -11,7 +11,7 @@ const Header = () => {
     <button className="dropdown-item" type="button">Something else here</button>
   </div>
 </div>
-<a href="#" style={{float: "right", color: "#4c4c4c", textDecoration: "none"}}>Sign Up / Sign In</a>
+<a href="#" style={{float: "right", color: "#4c4c4c", textDecoration: "none"}}>Sign Up</a>
 <h1>Rental Huntress</h1>
 </div>
 );

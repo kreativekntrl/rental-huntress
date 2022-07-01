@@ -44,7 +44,20 @@ body {
 //NAV
 .page-nav {
   grid-column: 1 / -1;
-  background: #bbdefb;
+  background-color: purple;
+}
+.nav-container {
+  text-align: center;
+}
+.search {
+  width: calc(100% - 4.75rem);
+}
+.search-btn {
+  float: right;
+  background-color: var(--btn);
+  color: var(--light-font);
+  border: 1px solid darkmagenta;
+  width: 4.75rem;
 }
 //MAIN
 .page-main {

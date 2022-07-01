@@ -12,6 +12,7 @@ function App() {
     <Header />
   </header>
   <nav className="page-nav">
+    <article></article>
     <Nav />
   </nav>
   <main className="page-main">
