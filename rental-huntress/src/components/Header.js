@@ -2,7 +2,7 @@ const Header = () => {
     return (
 <div className="dropdown-container">
 <div className="dropdown">
-  <button className="btn menu-btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{padding: "0", float: "left"}}>
+  <button className="btn menu-btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{padding: "0", float: "left", backgroundColor: "white"}}>
   <i className="bi bi-list" style={{fontSize: "30px"}}></i>
   </button>
   <div className="dropdown-menu" aria-labelledby="dropdownMenu2">

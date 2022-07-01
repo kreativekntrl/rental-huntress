@@ -78,7 +78,16 @@ body {
 //MAIN
 .page-main {
   grid-column: 1 / -1;
-  background: #dcedc8;
+}
+.card-grou{ 
+  margin: auto;
+}
+.card {
+  margin: 10px;;
+}
+.btn {
+  background-color: var(--btn);
+  border: none;
 }
 //FOOTER
 .page-footer {
