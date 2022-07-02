@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hannah-wilson/static/css/main.febc7fb8.css",
+    "main.js": "/hannah-wilson/static/js/main.faaa7a67.js",
+    "static/js/787.6e60ddd3.chunk.js": "/hannah-wilson/static/js/787.6e60ddd3.chunk.js",
+    "static/media/navImg.jpg": "/hannah-wilson/static/media/navImg.91a51b0ace0d092eee38.jpg",
+    "static/media/building1.jpg": "/hannah-wilson/static/media/building1.851569aa31d5225234c3.jpg",
+    "static/media/building2.jpg": "/hannah-wilson/static/media/building2.43f2091671cde2d9e9ae.jpg",
+    "static/media/bootstrap-icons.woff?": "/hannah-wilson/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/building3.jpg": "/hannah-wilson/static/media/building3.6a902eee8ea9327ebe8c.jpg",
+    "static/media/bootstrap-icons.woff2?": "/hannah-wilson/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/building4.jpg": "/hannah-wilson/static/media/building4.5ef4ebd8c92cd0775a4b.jpg",
+    "index.html": "/hannah-wilson/index.html",
+    "main.febc7fb8.css.map": "/hannah-wilson/static/css/main.febc7fb8.css.map",
+    "main.faaa7a67.js.map": "/hannah-wilson/static/js/main.faaa7a67.js.map",
+    "787.6e60ddd3.chunk.js.map": "/hannah-wilson/static/js/787.6e60ddd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.febc7fb8.css",
+    "static/js/main.faaa7a67.js"
+  ]
+}
