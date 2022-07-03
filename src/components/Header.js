@@ -1,7 +1,23 @@
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import { useEffect, useState } from 'react';
 
 const Header = () => {
+  const [list, setList] = useState([]);
+
+  useEffect(() => {
+    let mounted = true;
+    fetch('/about')
+      .then(data => {
+        return data.json()
+      })
+      .then((res) => {
+        if (mounted) {
+          setList(res)
+        }
+      })
+    return () => mounted = false;
+  }, [])
 
   return (
     <div className="dropdown-container">
