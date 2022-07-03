@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import "./Header.scss";
 import { useEffect, useState } from 'react';
 
 const Header = () => {
+<<<<<<< HEAD
   const [list, setList] = useState([]);
 
   useEffect(() => {
@@ -17,6 +19,8 @@ const Header = () => {
       })
     return () => mounted = false;
   }, [])
+=======
+>>>>>>> 43a3abaf59bbb9749f64c713370f9f81264614d9
 
   return (
     <div className="dropdown-container">
@@ -45,7 +49,13 @@ const Header = () => {
         </div>
       </div>
       <h1>Rental Huntress</h1>
+<<<<<<< HEAD
       <button onClick={() => alert('clickedP')}>Sign Up</button>
+=======
+      <Link to="/signIn">Sign In</Link>
+      <Link to="/about">About</Link>
+      <Link to="/blog">Blog</Link>
+>>>>>>> 43a3abaf59bbb9749f64c713370f9f81264614d9
     </div>
   );
 };
