@@ -1,9 +1,8 @@
+import { Link } from "react-router-dom";
 import "./Header.scss";
 
 const Header = () => {
-  const signUp = () => {
-    console.log("helo world");
-  };
+
   return (
     <div className="dropdown-container">
       <div className="dropdown">
@@ -31,7 +30,9 @@ const Header = () => {
         </div>
       </div>
       <h1>Rental Huntress</h1>
-      <button onClick={signUp}>Sign Up</button>
+      <Link to="/signIn">Sign In</Link>
+      <Link to="/about">About</Link>
+      <Link to="/blog">Blog</Link>
     </div>
   );
 };
