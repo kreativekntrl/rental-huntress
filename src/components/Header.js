@@ -1,9 +1,23 @@
 import "./Header.scss";
+import { useEffect, useState } from 'react';
 
 const Header = () => {
-  const signUp = () => {
-    console.log("helo world");
-  };
+  const [list, setList] = useState([]);
+
+  useEffect(() => {
+    let mounted = true;
+    fetch('/about')
+      .then(data => {
+        return data.json()
+      })
+      .then((res) => {
+        if (mounted) {
+          setList(res)
+        }
+      })
+    return () => mounted = false;
+  }, [])
+
   return (
     <div className="dropdown-container">
       <div className="dropdown">
@@ -31,7 +45,7 @@ const Header = () => {
         </div>
       </div>
       <h1>Rental Huntress</h1>
-      <button onClick={signUp}>Sign Up</button>
+      <button onClick={() => alert('clickedP')}>Sign Up</button>
     </div>
   );
 };
