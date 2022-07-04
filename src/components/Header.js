@@ -12,6 +12,7 @@ const Header = () => {
         return data.json()
       })
       .then((res) => {
+        console.log('res', res)
         if (mounted) {
           setList(res)
         }
