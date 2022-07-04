@@ -4,9 +4,22 @@ import img3 from "../images/building3.jpg";
 import img4 from "../images/building4.jpg";
 
 const Main = () => {
+
+  const genericGrid = (userInput) => {
+    let newDiv = ''
+
+    if (userInput === 'San Diego') {
+      newDiv =  'San Diego'
+    } else {
+      newDiv = 'Los Angeles'
+    }
+    return newDiv;
+  }
+
   return (
     <div>
-      <h2>Explore Rentals in San Diego, CA</h2>
+      <h2>Explore Rentals in Los Angles, CA</h2>
+      {genericGrid(userInput)}
       <div className="card-group">
         <div className="card" style={{ width: "15rem" }}>
           <img className="card-img-top" src={img1} alt="Card cap"></img>

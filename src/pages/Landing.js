@@ -11,7 +11,7 @@ const Landing = () => {
     <Header />
   </header>
   <nav className="page-nav">
-    <Nav className="page-nav"/>
+    <Nav className="page-nav" />
   </nav>
   <main className="page-main">
     <Main />

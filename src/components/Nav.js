@@ -9,8 +9,6 @@ const Nav = () => {
 
   const handleFormSubmit = async (evt) => {
     evt.preventDefault();
-    alert("form submitted");
-    
   };
 
   return (
@@ -31,7 +29,7 @@ const Nav = () => {
           onChange={handleInputChange}
           className="form-control mr-sm-2 search"
           type="search"
-          placeholder="City Name"
+          placeholder="San Diego"
           aria-label="Search"
         />
       </form>
