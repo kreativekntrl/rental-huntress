@@ -15,8 +15,8 @@ const Landing = () => {
   }
 
   const handleFormSubmit = (evt) => {
-    alert(`form submitted: ${userInput}`)
     evt.preventDefault(); 
+    
   };
 
     return ( 
