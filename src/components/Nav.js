@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 
-const Nav = () => {
- const [userInput, setUserInput] = useState("");
-  
-  const handleInputChange = async (evt) => {
-    setUserInput(evt.target.value);
-  }
-
-  const handleFormSubmit = async (evt) => {
-    evt.preventDefault();
-  };
+const Nav = ({handleFormSubmit, handleInputChange}) => {
 
   return (
     <div className="nav-container">
@@ -25,7 +16,6 @@ const Nav = () => {
           Search
         </button>
         <input
-          value={userInput}
           onChange={handleInputChange}
           className="form-control mr-sm-2 search"
           type="search"
