@@ -49,7 +49,7 @@ const Header = () => {
       <h1>Rental Huntress</h1>
       <Link to="/signIn">Sign In</Link>
       <Link to="/about">About</Link>
-      <Link to="/blog">Blog</Link>
+      <Link to="/favorites">Favorites</Link>
     </div>
   );
 };
